@@ -12,7 +12,7 @@ class Solution {
             letter[t.charAt(i) - 'a']--;
         }
 
-        for (int j = 0; j< s.length(); j++)
+        for (int j = 0; j< letter.length; j++)
         {
             if(letter[j]!=0){
                 return false;
